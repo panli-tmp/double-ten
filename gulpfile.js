@@ -33,7 +33,7 @@ gulp.task('scss',function(){
 });
 // reload js
 gulp.task('js',function(){
-  gulp.src('./src/js/main.js')
+  gulp.src('./src/js/*.js')
         .pipe(concat('main.js'))
         .pipe(gulp.dest('dist/js'))
         .pipe(rename({suffix: '.min'}))
@@ -50,14 +50,18 @@ gulp.task('img',function(){
   .pipe( connect.reload() )
   .pipe(notify({ message: 'images task complete' }));
 });
-
-
+// html
+gulp.task('html',function(){
+  gulp.src('./**.html')
+  .pipe( connect.reload() )
+  .pipe(notify({ message: 'html task complete' }));
+});
 
 gulp.task('watch',function(){
   gulp.watch('./src/scss/*.scss',['scss']);
   gulp.watch('./src/js/*.js',['js']);
   gulp.watch('./src/images/*',['img']);
-  gulp.watch('./*.html',['html']);
+  gulp.watch('./**.html',['html']);
 
 });
 

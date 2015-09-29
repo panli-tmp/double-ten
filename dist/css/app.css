@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input {
+  -webkit-appearance: none;
+  resize: none; }
+
+/* 取消链接高亮  */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article,
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  -webkit-tap-highlight-color: transparent; }
+
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* 图片自适应 */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+  -ms-interpolation-mode: bicubic;
+  /*为了照顾ie图片缩放失真*/ }
+
+/* 初始化 */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article,
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+body {
+  font-family: Microsoft YaHei,Tahoma,Arial,sans-serif;
+  color: #555; }
+
+em, i {
+  font-style: normal; }
+
+strong {
+  font-weight: normal; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+a {
+  text-decoration: none;
+  color: #969696;
+  font-family: Microsoft YaHei,Tahoma,Arial,sans-serif; }
+
+a:hover {
+  color: #FED503;
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-family: Microsoft YaHei; }
+
+img {
+  border: none; }
+
+.scope {
+  min-width: 320px;
+  max-width: 540px; }
+
+/* 通用基样式 */
+.t-css {
+  width: 100%;
+  overflow: hidden;
+  display: table; }
+
+.t-img-css {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.t-row-css {
+  display: table-row;
+  width: 100%; }
+
+.t-cell-css {
+  display: table-cell;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box; }
+
+.rm-a-css {
+  -webkit-tap-highlight-color: transparent; }
+
+.set-img-css {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.base-box-css {
+  width: 100%;
+  overflow: hidden; }
+
+/* 三档大小 */
+body {
+  background-color: #15cbbf; }
+
+.app {
+  padding-bottom: 5.8rem;
+  min-width: 320px;
+  max-width: 720px;
+  margin: 0 auto; }
+
+.mg-lf-rem-05 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.mg-lf-rem-1 {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.pd-lr-rem-1 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.pd-lr-rem-05 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+
+.header {
+  position: relative;
+  z-index: 0; }
+  .header .star-box, .header .phone6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0; }
+  .header .phone6 img {
+    margin-top: 1rem; }
+
+.main {
+  background-color: #ffd837;
+  min-height: 5rem;
+  margin-top: -3rem;
+  position: relative;
+  z-index: 1;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem; }
+
+.hello-info {
+  height: 3.2rem;
+  background: url(../images/hello-info.png) no-repeat;
+  background-size: contain; }
+
+.list-top {
+  background: #fd4530;
+  padding-bottom: 0.1rem; }
+  .list-top .list-top-title {
+    height: 1.2rem;
+    background: url(../images/top-title.png) no-repeat center center;
+    background-size: 80%; }
+
+.list-top-body {
+  margin: 0 0.05rem;
+  min-height: 1rem;
+  background-color: #FFF;
+  padding: 0.3rem; }
+
+.list-top-table {
+  width: 100%;
+  border-spacing: none; }
+  .list-top-table .tr1 {
+    background-color: #ffe2ba; }
+  .list-top-table th {
+    text-align: center; }
+
+.list-top-ul {
+  position: relative; }
+  .list-top-ul li {
+    width: 100%;
+    display: block; }
+    .list-top-ul li > div {
+      float: left;
+      width: 50%;
+      text-align: center;
+      display: inline-block; }
+    .list-top-ul li .td1 {
+      text-align: left;
+      text-indent: 1rem; }
+    .list-top-ul li.liT {
+      background: #ffe2ba;
+      color: #1c1c1c;
+      font-weight: bold;
+      border-radius: 0.2rem; }
+    .list-top-ul li.li1 {
+      padding-top: 0.1rem;
+      color: #fd4530;
+      font-size: 16px; }
+    .list-top-ul li.li2 {
+      padding: 0.08rem 0;
+      border-top: 1px dotted #cccccc; }
+
+.list-info {
+  margin: 0.4rem 0; }
+  .list-info p {
+    position: relative;
+    padding-left: 0.4rem; }
+    .list-info p span {
+      position: absolute;
+      left: 0; }
+
+.activity-rules {
+  padding-bottom: 0.5rem; }
+
+.rules-list {
+  padding-left: 0.4rem; }
+
+.rules-title {
+  height: 0.8rem;
+  background: url(../images/rule-title.png) no-repeat;
+  background-size: contain;
+  margin-bottom: 0.2rem; }
+
+.rules-list-ol {
+  list-style: decimal; }

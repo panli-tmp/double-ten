@@ -1,0 +1,17 @@
+.header{
+  position: relative;
+  z-index: 0;
+  .star-box,.phone6{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+
+  .phone6{
+
+    img{
+      margin-top: 1rem;
+    }
+  }
+}

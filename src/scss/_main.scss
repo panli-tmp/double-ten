@@ -1,0 +1,100 @@
+.main{
+  background-color: #ffd837;
+  min-height: 5rem;
+  margin-top: -3rem;
+  position: relative;
+  z-index: 1;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.hello-info{
+  height: 3.2rem;
+  background: url(../images/hello-info.png) no-repeat;
+  background-size: contain;
+}
+.list-top{
+  background: #fd4530;
+  padding-bottom: 0.1rem;
+  .list-top-title{
+    height: 1.2rem;
+    background: url(../images/top-title.png) no-repeat center center;
+    background-size: 80%;
+  }
+}
+.list-top-body{
+  margin:0 0.05rem;
+  min-height: 1rem;
+  background-color: #FFF;
+  padding: 0.3rem;
+}
+.list-top-table{
+  width: 100%;
+  border-spacing:none;
+  .tr1{
+    background-color: #ffe2ba;
+
+  }
+  th{
+    text-align: center;
+  }
+}
+.list-top-ul{
+  position: relative;
+
+  li{
+    width: 100%;
+    display: block;
+    &>div{
+      float: left;
+      width: 50%;
+      text-align: center;
+      display: inline-block;
+    }
+    .td1{
+      text-align: left;
+      text-indent: 1rem;
+    }
+    &.liT{
+      background: #ffe2ba;
+      color: #1c1c1c;
+      font-weight: bold;
+      border-radius: 0.2rem;
+    }
+    &.li1{
+      padding-top: 0.1rem;
+      color: #fd4530;
+      font-size: 16px;
+    }
+    &.li2{
+      padding: 0.08rem 0;
+      border-top: 1px dotted #cccccc;
+    }
+  }
+}
+
+.list-info{
+  margin: 0.4rem 0;
+  p{
+    position: relative;
+    padding-left: 0.4rem;
+    span{
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+.activity-rules{
+  padding-bottom: 0.5rem;
+}
+.rules-list{
+  padding-left: 0.4rem;
+}
+.rules-title{
+  height: 0.8rem;
+  background:url(../images/rule-title.png) no-repeat;
+  background-size: contain;
+  margin-bottom: 0.2rem;
+}
+.rules-list-ol{
+  list-style: decimal;
+}

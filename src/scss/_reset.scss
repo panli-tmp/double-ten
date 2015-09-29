@@ -29,7 +29,7 @@ width:auto\9; /* ie8 */
 /* 初始化 */
 body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
 aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{margin:0; padding:0; border:none;}
-body{font-family: '宋体',Microsoft YaHei,Tahoma,Arial,sans-serif; color:#555; background-color:#F7F7F7;}
+body{font-family: Microsoft YaHei,Tahoma,Arial,sans-serif; color:#555; }
 em,i{font-style:normal;}
 strong{font-weight: normal;}
 .clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
@@ -51,13 +51,13 @@ img{border: none;}
 .base-box-css{width:100%; overflow:hidden;}
 
 
-/* 三档文字大小 */
+/* 三档大小 */
 @media (max-width:399px){
-html{font-size: 15px;}
+
 }
 @media (min-width: 400px) and (max-width:480px){
-html{font-size: 20px;}
+
 }
 @media (min-width: 481px){
-html{font-size: 25px;}
+
 }
