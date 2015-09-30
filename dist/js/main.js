@@ -122,10 +122,12 @@ function Z(id){
 
 ;(function(){
 
+  var onHost= 'http://sf.panli.com/Ued/Special/20151010/';
+  //var onHost= '';
   var loadingArr = [
-        'dist/images/star-bg.png',
-        'dist/images/star.png',
-        'dist/images/head-iphone6.png',
+        onHost+'dist/images/star-bg.png',
+        onHost+'dist/images/star.png',
+        onHost+'dist/images/head-iphone6.png',
     ];
 
     var loadF = false;

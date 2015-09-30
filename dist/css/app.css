@@ -174,22 +174,9 @@ body {
     height: .5rem;
     line-height: .5rem; }
 
-.header {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-  min-height: 9rem; }
-  .header .star-box, .header .phone6 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0; }
-  .header .phone6 img {
-    margin-top: 1rem; }
-
 .star-bg-box {
-  -webkit-animation: spin 6s linear infinite;
-          animation: spin 6s linear infinite; }
+  -webkit-animation: spin 10s linear infinite;
+          animation: spin 10s linear infinite; }
 
 @-webkit-keyframes spin {
   0% {
@@ -236,6 +223,23 @@ body {
   100% {
     -webkit-transform: rotateX(360deg) scale(1);
             transform: rotateX(360deg) scale(1); } }
+
+.header {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  min-height: 9rem; }
+  .header .star-box, .header .phone6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0; }
+  .header .star-box {
+    z-index: 8; }
+  .header .phone6 {
+    z-index: 9; }
+    .header .phone6 img {
+      margin-top: 1rem; }
 
 .main {
   background-color: #ffd837;

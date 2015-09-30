@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
   <meta content="yes" name="apple-mobile-web-app-capable" />
   <meta content="yes" name="apple-touch-fullscreen" />
   <meta content="telephone=no,email=no" name="format-detection" />
@@ -13,10 +16,7 @@
 </head>
 <body>
   <div id="app" class="app">
-    <div class="progress-bar" id="progress-bar">
-      <div id="load-count"></div>
-      <div id="load-text"></div>
-    </div>
+
     <!-- head -->
     <div class="header">
       <div class="star-bg-box">
@@ -43,8 +43,11 @@
           <div class="hello-info-boder">
             <div class="hello-info-text">
               <p class="p1">亲爱的 <span class="red">Henlou</span>，</p>
-              <p class="p2">
+                <!--<p class="p2">
                 截止当前，您的消费金额为<span class="red">8888元</span>，加油！iPhone 6s plus等你领回家~~
+              </p> -->
+             <p class="p2">
+                您还未购买任何商品，<a href=""><span class="red">赶紧去血拼</span></a>~
               </p>
             </div>
             <div class="hellp-price"></div>
@@ -129,6 +132,12 @@
         <div class="margin-b-bg"></div>
     </div>
     <!-- main end-->
+    <!-- loading -->
+    <div class="progress-bar" id="progress-bar">
+      <div id="load-count"></div>
+      <div id="load-text"></div>
+    </div>
+    <!-- loading end -->
   </div>
 </body>
 <script src="./dist/js/main.min.js" charset="utf-8"></script>
