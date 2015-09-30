@@ -13,6 +13,10 @@
 </head>
 <body>
   <div id="app" class="app">
+    <div class="progress-bar" id="progress-bar">
+      <div id="load-count"></div>
+      <div id="load-text"></div>
+    </div>
     <!-- head -->
     <div class="header">
       <div class="star-bg-box">
@@ -28,21 +32,29 @@
     <!-- head end-->
     <!-- main -->
     <div class="main mg-lf-rem-05">
+        <div class="margin-h-bg"></div>
         <div class="top-info">
-          <img src="./dist/images/top-info.png" alt="">
+            <div class="top-info-text">
+              10月10日至15日，订单实际支付金额累计最高的血拼之王，可以免费获得iPhone6s plus 1台！
+            </div>
+            <div class="top-info-phone"></div>
         </div>
         <div class="hello-info">
-
+          <div class="hello-info-boder">
+            <div class="hello-info-text">
+              <p class="p1">亲爱的 <span class="red">Henlou</span>，</p>
+              <p class="p2">
+                截止当前，您的消费金额为<span class="red">8888元</span>，加油！iPhone 6s plus等你领回家~~
+              </p>
+            </div>
+            <div class="hellp-price"></div>
+          </div>
         </div>
         <!-- list -->
         <div class="list-top">
             <div class="list-top-title"></div>
             <div class="list-top-body">
-                <!-- <table class="list-top-table">
-                  <tr class="tr1">
-                    <th class="td1">用户名</th><th class="td1">消费金额</th>
-                  </tr>
-                </table> -->
+              <div class="list-h-bg"></div>
                 <ul class="list-top-ul">
                   <li class="liT clearfix">
                     <div class="td1">用户名</div>
@@ -77,6 +89,7 @@
                     <div class="td2">212元</div>
                   </li>
                 </ul>
+                <div class="list-b-bg"></div>
             </div>
         </div>
         <!-- list end -->
@@ -113,6 +126,7 @@
           </div>
         </div>
         <!-- Activity Rules end -->
+        <div class="margin-b-bg"></div>
     </div>
     <!-- main end-->
   </div>

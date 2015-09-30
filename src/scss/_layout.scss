@@ -2,10 +2,10 @@ body{
   background-color: #15cbbf;
 }
 .app{
-  padding-bottom: 5.8rem;
+  padding-bottom: 1.6rem;
   min-width: 320px;
-  max-width: 720px;
-  margin: 0 auto;  
+  max-width: 640px;
+  margin: 0 auto;
 }
 .mg-lf-rem-05{
   margin-left: 0.5rem;
@@ -22,4 +22,7 @@ body{
 .pd-lr-rem-05{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+.red{
+  color: #fd4530;
 }

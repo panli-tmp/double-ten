@@ -1,0 +1,30 @@
+.progress-bar{
+  position: fixed;
+  bottom: 0.6rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 999;
+  overflow: hidden;
+  border: 0.1rem solid #FFF;
+  border-radius: 1rem;
+  background-color: #8bc1b0;
+  #load-count{
+    height: .5rem;
+    background-color: #15cabe;
+    width: 0%;
+    text-align: center;
+    transition: width 1s;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+  }
+  #load-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    height: .5rem;
+    line-height: .5rem;
+  }
+}
